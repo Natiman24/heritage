@@ -44,26 +44,6 @@ export default function Home() {
 
       <div className="landing-page-content-container">
 
-        <div className="landing-page-background-image-container">
-          <Image
-            src="/Images/Heritage Content Background.jpg"
-            alt="Background"
-            width={1000}
-            height={600}
-            className="landing-page-background-image"
-          />
-        </div>
-
-        <div className="landing-page-background-image-container mobile">
-          <Image
-            src="/Images/Heritage Content Background mobile.jpg"
-            alt="Background"
-            width={1000}
-            height={600}
-            className="landing-page-background-image"
-          />
-        </div>
-
         <div className='landing-page-mobile-nav-icon-container'>
           <Image
             src="/Svgs/hamburger.svg"
@@ -116,6 +96,7 @@ export default function Home() {
             or follow us on our social media channels. 
           </p>
         </div>
+        
       </div>
     </div>
   );
