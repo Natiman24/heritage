@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className='landing-page-mobile-nav-icon-container'>
           <Image
-            src="/Svgs/hamburger.svg"
+            src="/Svgs/hamburger light.svg"
             alt="hamburger icon"
             width={30}
             height={30}
